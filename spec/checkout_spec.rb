@@ -14,4 +14,7 @@ describe Checkout do
   it '4- should return 100' do
     expect(shop.checkout('AA')).to eq(100)
   end
+  it '5- should return 115' do
+    expect(shop.checkout('ABCD')).to eq(115)
+  end
 end
